@@ -1,0 +1,851 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+     <!-- style css -->
+     <link rel="stylesheet" href="/assets/css/style.css">
+
+     <!-- font awesome cdn -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+ 
+     <!-- owl cdn -->
+     <link
+       rel="stylesheet"
+       href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+     />
+     <link
+       rel="stylesheet"
+       href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+     />
+     <!-- boot icon cdn -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+ 
+ 
+
+    <title>Shop</title>
+  </head>
+  <body>
+    
+
+   <section id="main2">
+
+
+
+       <!-- top section / my account -->
+       <section id="my-ac">
+        <div class="container-fluid my-ac-bg pt-2">
+        <div class="container pt-2">
+            <div class="d-flex justify-content-lg-between justify-content-around">
+            <div class="first-sec">
+                <a href="#" class="text-secondary mx-2">About</a>
+                <a href="#" class="text-secondary mx-2">Contact</a>
+                <a href="#" class="text-secondary mx-2">Help</a>
+                <a href="#" class="text-secondary mx-2">FAQs</a>
+            </div>
+            <div class="d-flex">
+                <div class="dropdown">
+                    <a class="btn btn-secondary dropdown-toggle mx-2" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                      My Account
+                    </a>
+                  
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                      <li><a class="dropdown-item" href="#">Sign In</a></li>
+                      <li><a class="dropdown-item" href="#">Sign Up</a></li>
+                     
+                    </ul>
+                  </div>
+                  <div class="dropdown">
+                    <a class="btn btn-secondary dropdown-toggle mx-2" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                      USD
+                    </a>
+                  
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                      <li><a class="dropdown-item" href="#">EUR</a></li>
+                      <li><a class="dropdown-item" href="#"> GBP</a></li>
+                      <li><a class="dropdown-item" href="#">CAD</a></li>
+                    </ul>
+                  </div>
+                  <div class="dropdown">
+                    <a class="btn btn-secondary dropdown-toggle mx-2" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                      EN
+                    </a>
+                  
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                      <li><a class="dropdown-item" href="#">FR</a></li>
+                      <li><a class="dropdown-item" href="#">AR</a></li>
+                      <li><a class="dropdown-item" href="#">RU </a></li>
+                    </ul>
+                  </div>
+                  <div class="d-lg-none my-ac-icon pb-lg-0 p-1"> 
+                    <i class="fa-sharp fa-solid fa-heart text-dark"></i>
+                    <i class="bi bi-0-circle text-dark"></i>
+                </div> 
+                <div class="d-lg-none my-ac-icon pb-lg-0 p-1">
+                    <i class="fa-sharp fa-solid fa-cart-shopping text-dark"></i>
+                    <i class="bi bi-0-circle text-dark"></i>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- multi shop section -->
+
+<section id="multi-shop">
+    <div class="container pt-4">
+        <div class="d-flex justify-content-between">
+        <div class="logo">
+            <h4> <span class="mul p-1">  MULTI</span> <span class="shop p-1">SHOP</span></h4>
+        </div>
+        <div class="search-bar">
+            <div class="search-box">
+                <input type="text" class="search-input" placeholder="Search..">
+          
+                <button class="search-button">
+                  <i class="fas fa-search text-warning"></i>
+                </button>
+             </div>
+        </div>
+        <div class="contact">
+            <p class="text-secondary con-text m-0">Coustomer Service</p>
+            <h5>+012 345 6789</h5>
+        </div>
+        
+    </div>
+    </div>
+</section>
+
+
+
+    <!-- navbar section -->
+
+<section id="category">
+ <div class="container-fluid bg-dark">
+    <div class=" bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+                <div class=" container my-lg-0 my-3 d-flex pt-lg-0 pt-2">
+                    <div class="logo1 d-lg-none">
+                        <h4> <span class="mul ">  MULTI</span> <span class="shop ">SHOP</span></h4>
+                    </div>
+                    <div class="dropdown catdrop">
+                        <button class="btn btn-secondary dropdown-toggle p-3" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-sharp fa-solid fa-bars"></i>  <span class="mx-1"> Categories</span>
+                        </button>
+                        <ul class="dropdown-menu cat-menu" aria-labelledby="dropdownMenuButton1">
+                            <!-- <div class="btn-group dropend">
+                                <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Dresses
+                                </button>
+                                <ul class="dropdown-menu bg-dark">
+                                    <li><a class="dropdown-item" href="#">Men's Dresses</a></li>
+                                    <li><a class="dropdown-item" href="#">Women's Dresses</a></li>
+                                    <li><a class="dropdown-item" href="#">Baby's Dresses</a></li>
+                                </ul>
+                              </div> -->
+                              
+                        <li><a class="dropdown-item" href="#">Shirts</a></li>
+                        <li><a class="dropdown-item" href="#">Jeans</a></li>
+                        <li><a class="dropdown-item" href="#">Swimwear</a></li>
+                        <li><a class="dropdown-item" href="#">Sleepwear</a></li>
+                        <li><a class="dropdown-item" href="#">Sportswear</a></li>
+                        <li><a class="dropdown-item" href="#">Jumpsuit</a></li>
+                        <li><a class="dropdown-item" href="#">Blazers</a></li>
+                        <li><a class="dropdown-item" href="#">Jackets</a></li>
+                        </ul>
+                        
+                    </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span><i class="fa-sharp fa-solid fa-bars text-muted p-1"></i></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent ">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active mx-3" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-2" href="./shop.html">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-2" href="../pages/shopdetail.html">Shop Detail</a>
+                    </li>
+                    <li class="nav-item dropdown page-drop">
+                        <a class="nav-link dropdown-toggle mx-2 " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Pages
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Shopping Cart</a></li>
+                        <li><a class="dropdown-item" href="#">Checkout</a></li>
+                        
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-2" href="#">Contact</a>
+                    </li>
+                    </ul>
+
+                    <div> 
+                        <i class="fa-sharp fa-solid fa-heart text-warning"></i>
+                        <i class="bi bi-0-circle text-white"></i>
+                    </div> 
+                    <div class="mx-4">
+                        <i class="fa-sharp fa-solid fa-cart-shopping text-warning"></i>
+                        <i class="bi bi-0-circle text-white"></i>
+                    </div>
+
+                </div>
+                </div>
+
+                <!-- second -->
+
+                <nav class="navbar navbar-expand-lg navbar-light bg-dark d-lg-none">
+                    <div class="container-fluid">
+              
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Shop </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Shop Detail</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Pages
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+                    
+            
+            </nav>
+        </div>
+    </div> 
+</section>
+
+
+
+
+
+<!-- breadcrumb section -->
+
+<section id="breadc">
+    <div class="container-fluid pt-5 bread-bg">
+        <div class="container bg-light p-2">
+            <nav aria-label="breadcrumb" class="pt-2">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="#">Home</a></li>
+                  <li class="breadcrumb-item"><a href="#">Shop</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Shop List</li>
+                </ol>
+              </nav>
+        </div>
+    </div>
+</section>
+
+
+
+
+<!-- filter by price section -->
+
+<section id="filter">
+    <div class="container pt-5">
+
+        <div class="row">
+            <div class="col-3 bg-col">
+                <div class="d-flex">
+                    <h5 class="text-uppercase">filter by price</h5>
+                    <div class="mx-3 dashed"></div>
+                </div>
+
+                <div class="pt-3 d-flex justify-content-between">
+                    <div class="form-check">
+                        <input class="form-check-input text-warning p-2" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label text-secondary mx-2" for="flexCheckDefault">
+                          All Price
+                        </label>
+                      </div>
+                      <p class="p-1 border text-secondary">1000</p>
+                </div>
+                <div class=" d-flex justify-content-between">
+                    <div class="form-check">
+                        <input class="form-check-input text-warning p-2" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label text-secondary mx-2" for="flexCheckDefault">
+                          $0 - $100
+                        </label>
+                      </div>
+                      <p class="p-1 border text-secondary">150</p>
+                </div>
+                <div class=" d-flex justify-content-between">
+                    <div class="form-check">
+                        <input class="form-check-input text-warning p-2" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label text-secondary mx-2" for="flexCheckDefault">
+                            $100 - $200
+                        </label>
+                      </div>
+                      <p class="p-1 border text-secondary">290</p>
+                </div>
+                <div class=" d-flex justify-content-between">
+                    <div class="form-check">
+                        <input class="form-check-input text-warning p-2" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label text-secondary mx-2" for="flexCheckDefault">
+                          All Price
+                        </label>
+                      </div>
+                      <p class="p-1 border text-secondary">246</p>
+                </div>
+                <div class=" d-flex justify-content-between">
+                    <div class="form-check">
+                        <input class="form-check-input text-warning p-2" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label text-secondary mx-2" for="flexCheckDefault">
+                            $200 - $300
+                        </label>
+                      </div>
+                      <p class="p-1 border text-secondary">145</p>
+                </div>
+                <div class=" d-flex justify-content-between">
+                    <div class="form-check">
+                        <input class="form-check-input text-warning p-2" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label text-secondary mx-2" for="flexCheckDefault">
+                            $400 - $500
+                        </label>
+                      </div>
+                      <p class="p-1 border text-secondary">168</p>
+                </div>
+
+
+
+                <div class="d-flex pt-5">
+                    <h5 class="text-uppercase">filter by color</h5>
+                    <div class="mx-3 dashed1"></div>
+                </div>
+
+                <div class="pt-3 d-flex justify-content-between">
+                    <div class="form-check">
+                        <input class="form-check-input text-warning p-2" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label text-secondary mx-2" for="flexCheckDefault">
+                          All Color
+                        </label>
+                      </div>
+                      <p class="p-1 border text-secondary">1000</p>
+                </div>
+                <div class=" d-flex justify-content-between">
+                    <div class="form-check">
+                        <input class="form-check-input text-warning p-2" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label text-secondary mx-2" for="flexCheckDefault">
+                          Black
+                        </label>
+                      </div>
+                      <p class="p-1 border text-secondary">150</p>
+                </div>
+                <div class=" d-flex justify-content-between">
+                    <div class="form-check">
+                        <input class="form-check-input text-warning p-2" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label text-secondary mx-2" for="flexCheckDefault">
+                            White
+                        </label>
+                      </div>
+                      <p class="p-1 border text-secondary">290</p>
+                </div>
+                <div class=" d-flex justify-content-between">
+                    <div class="form-check">
+                        <input class="form-check-input text-warning p-2" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label text-secondary mx-2" for="flexCheckDefault">
+                          Red
+                        </label>
+                      </div>
+                      <p class="p-1 border text-secondary">246</p>
+                </div>
+                <div class=" d-flex justify-content-between">
+                    <div class="form-check">
+                        <input class="form-check-input text-warning p-2" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label text-secondary mx-2" for="flexCheckDefault">
+                            Yellow
+                        </label>
+                      </div>
+                      <p class="p-1 border text-secondary">145</p>
+                </div>
+                <div class=" d-flex justify-content-between">
+                    <div class="form-check">
+                        <input class="form-check-input text-warning p-2" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label text-secondary mx-2" for="flexCheckDefault">
+                            Green
+                        </label>
+                      </div>
+                      <p class="p-1 border text-secondary">168</p>
+                </div>
+
+
+
+                
+                <div class="d-flex pt-5">
+                    <h5 class="text-uppercase">filter by size</h5>
+                    <div class="mx-3 dashed1"></div>
+                </div>
+
+                <div class="pt-3 d-flex justify-content-between">
+                    <div class="form-check">
+                        <input class="form-check-input text-warning p-2" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label text-secondary mx-2" for="flexCheckDefault">
+                          All Size
+                        </label>
+                      </div>
+                      <p class="p-1 border text-secondary">1000</p>
+                </div>
+                <div class=" d-flex justify-content-between">
+                    <div class="form-check">
+                        <input class="form-check-input text-warning p-2" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label text-secondary mx-2" for="flexCheckDefault">
+                          XS
+                        </label>
+                      </div>
+                      <p class="p-1 border text-secondary">150</p>
+                </div>
+                <div class=" d-flex justify-content-between">
+                    <div class="form-check">
+                        <input class="form-check-input text-warning p-2" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label text-secondary mx-2" for="flexCheckDefault">
+                            S
+                        </label>
+                      </div>
+                      <p class="p-1 border text-secondary">290</p>
+                </div>
+                <div class=" d-flex justify-content-between">
+                    <div class="form-check">
+                        <input class="form-check-input text-warning p-2" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label text-secondary mx-2" for="flexCheckDefault">
+                          M
+                        </label>
+                      </div>
+                      <p class="p-1 border text-secondary">246</p>
+                </div>
+                <div class=" d-flex justify-content-between">
+                    <div class="form-check">
+                        <input class="form-check-input text-warning p-2" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label text-secondary mx-2" for="flexCheckDefault">
+                            L
+                        </label>
+                      </div>
+                      <p class="p-1 border text-secondary">145</p>
+                </div>
+                <div class=" d-flex justify-content-between">
+                    <div class="form-check">
+                        <input class="form-check-input text-warning p-2" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label text-secondary mx-2" for="flexCheckDefault">
+                            XL
+                        </label>
+                      </div>
+                      <p class="p-1 border text-secondary">168</p>
+                </div>
+
+            </div>
+
+
+            <div class="col-9 bg-col"> 
+                <div class="d-flex justify-content-between"> 
+                <div>
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="d-flex">
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                          Sorting
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                          <li><a class="dropdown-item" href="#">Latest</a></li>
+                          <li><a class="dropdown-item" href="#">Popularity</a></li>
+                          <li><a class="dropdown-item" href="#">Best Rating</a></li>
+                        </ul>
+                      </div>
+
+                      <div class="dropdown mx-2">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                          Showing
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                          <li><a class="dropdown-item" href="#">10</a></li>
+                          <li><a class="dropdown-item" href="#">20</a></li>
+                          <li><a class="dropdown-item" href="#">30</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                </div>
+
+
+                <div class="row pt-4">
+                    <div class="col-lg-4 col-12 pb-lg-0 pb-3 ">
+                        <div class="sha-dow">
+                        <div class="content1  text-center ">
+                            <img src="/assets/img/product-1.jpg" alt="Avatar" class="image pb-2 inner-img fmo-view"  >
+                            <div class="middle mid">
+                              <div class="text d-flex justify-content-center">
+                                <i class="fa-sharp fa-solid fa-cart-shopping mx-1  p-2  pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-heart mx-1  p-2  pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-recycle mx-1  p-2  pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-magnifying-glass mx-1  p-2  pro-icon"></i>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="text-center ">
+                                <h5>Product Names Goes Here</h5>
+                               <h5> $123.00 <del class="text-muted"> $123.00</del> </h5> 
+                                <div class=" d-flex justify-content-center">
+                                    <div>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    </div>
+                                    <p class="text-muted">(99)</p>
+                                </div>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-4 col-12 pb-lg-0 pb-3">
+                        <div class="sha-dow">
+                        <div class="content1  text-center">
+                            <img src="/assets/img/product-2.jpg" alt="Avatar" class="image pb-2 inner-img fmo-view"  >
+                            <div class="middle">
+                              <div class="text d-flex">
+                                <i class="fa-sharp fa-solid fa-cart-shopping mx-1  p-2 border pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-heart mx-1  p-2 border pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-recycle mx-1  p-2 border pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-magnifying-glass mx-1  p-2 border pro-icon"></i>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <h5>Product Names Goes Here</h5>
+                               <h5> $123.00 <del class="text-muted"> $123.00</del> </h5> 
+                                <div class=" d-flex justify-content-center">
+                                    <div>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    </div>
+                                    <p class="text-muted">(99)</p>
+                                </div>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-4 col-12 pb-lg-0 pb-3">
+                        <div class="sha-dow">
+                        <div class="content1  text-center">
+                            <img src="/assets/img/product-3.jpg" alt="Avatar" class="image pb-2 inner-img fmo-view"  >
+                            <div class="middle">
+                              <div class="text d-flex">
+                                <i class="fa-sharp fa-solid fa-cart-shopping mx-1  p-2 border pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-heart mx-1  p-2 border pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-recycle mx-1  p-2 border pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-magnifying-glass mx-1  p-2 border pro-icon"></i>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <h5>Product Names Goes Here</h5>
+                               <h5> $123.00 <del class="text-muted"> $123.00</del> </h5> 
+                                <div class=" d-flex justify-content-center">
+                                    <div>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    </div>
+                                    <p class="text-muted">(99)</p>
+                                </div>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-4 col-12 pb-lg-0 pb-3 pt-2">
+                        <div class="sha-dow">
+                        <div class="content1  text-center">
+                            <img src="/assets/img/product-4.jpg" alt="Avatar" class="image pb-2 inner-img last-img" height="305px" >
+                            <div class="middle">
+                              <div class="text d-flex">
+                                <i class="fa-sharp fa-solid fa-cart-shopping mx-1  p-2 border pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-heart mx-1  p-2 border pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-recycle mx-1  p-2 border pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-magnifying-glass mx-1  p-2 border pro-icon"></i>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <h5>Product Names Goes Here</h5>
+                               <h5> $123.00 <del class="text-muted"> $123.00</del> </h5> 
+                                <div class=" d-flex justify-content-center">
+                                    <div>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    </div>
+                                    <p class="text-muted">(99)</p>
+                                </div>
+                            </div>
+                          </div>
+                    </div>
+
+
+                    <!-- second part -->
+                    <div class="col-lg-4 col-12 pt-3 pb-lg-0 pb-3">
+                        <div class="sha-dow">
+                        <div class="content1  text-center ">
+                            <img src="/assets/img/product-5.jpg" alt="Avatar" class="image pb-2 inner-img fmo-view"  >
+                            <div class="middle mid">
+                              <div class="text d-flex justify-content-center">
+                                <i class="fa-sharp fa-solid fa-cart-shopping mx-1  p-2 border pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-heart mx-1  p-2 border pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-recycle mx-1  p-2 border pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-magnifying-glass mx-1  p-2 border pro-icon"></i>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <h5>Product Names Goes Here</h5>
+                               <h5> $123.00 <del class="text-muted"> $123.00</del> </h5> 
+                                <div class=" d-flex justify-content-center">
+                                    <div>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    </div>
+                                    <p class="text-muted">(99)</p>
+                                </div>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-4 col-12 pb-lg-0 pb-3  pt-3">
+                        <div class="sha-dow">
+                        <div class="content1  text-center">
+                            <img src="/assets/img/product-6.jpg" alt="Avatar" class="image pb-2 inner-img fmo-view"  >
+                            <div class="middle">
+                              <div class="text d-flex">
+                                <i class="fa-sharp fa-solid fa-cart-shopping mx-1  p-2 border pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-heart mx-1  p-2 border pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-recycle mx-1  p-2 border pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-magnifying-glass mx-1  p-2 border pro-icon"></i>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <h5>Product Names Goes Here</h5>
+                               <h5> $123.00 <del class="text-muted"> $123.00</del> </h5> 
+                                <div class=" d-flex justify-content-center">
+                                    <div>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    </div>
+                                    <p class="text-muted">(99)</p>
+                                </div>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-4 col-12 pb-lg-0 pb-3 pt-3">
+                        <div class="sha-dow">
+                        <div class="content1  text-center">
+                            <img src="/assets/img/product-7.jpg" alt="Avatar" class="image pb-2 inner-img fmo-view"  >
+                            <div class="middle">
+                              <div class="text d-flex">
+                                <i class="fa-sharp fa-solid fa-cart-shopping mx-1  p-2 border pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-heart mx-1  p-2 border pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-recycle mx-1  p-2 border pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-magnifying-glass mx-1  p-2 border pro-icon"></i>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <h5>Product Names Goes Here</h5>
+                               <h5> $123.00 <del class="text-muted"> $123.00</del> </h5> 
+                                <div class=" d-flex justify-content-center">
+                                    <div>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    </div>
+                                    <p class="text-muted">(99)</p>
+                                </div>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-4 col-12 pb-lg-0 pb-3 pt-3">
+                        <div class="sha-dow">
+                        <div class="content1  text-center">
+                            <img src="/assets/img/product-8.jpg" alt="Avatar" class="image pb-2 inner-img last-img"  height="305px" >
+                            <div class="middle">
+                              <div class="text d-flex">
+                                <i class="fa-sharp fa-solid fa-cart-shopping mx-1  p-2  pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-heart mx-1  p-2  pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-recycle mx-1  p-2  pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-magnifying-glass mx-1  p-2  pro-icon"></i>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <h5>Product Names Goes Here</h5>
+                               <h5> $123.00 <del class="text-muted"> $123.00</del> </h5> 
+                                <div class=" d-flex justify-content-center">
+                                    <div>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    </div>
+                                    <p class="text-muted">(99)</p>
+                                </div>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-4 col-12 pb-lg-0 pb-3 pt-3">
+                        <div class="sha-dow">
+                        <div class="content1  text-center">
+                            <img src="/assets/img/product-9.jpg" alt="Avatar" class="image pb-2 inner-img last-img"  height="305px" >
+                            <div class="middle">
+                              <div class="text d-flex">
+                                <i class="fa-sharp fa-solid fa-cart-shopping mx-1  p-2  pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-heart mx-1  p-2  pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-recycle mx-1  p-2  pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-magnifying-glass mx-1  p-2  pro-icon"></i>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <h5>Product Names Goes Here</h5>
+                               <h5> $123.00 <del class="text-muted"> $123.00</del> </h5> 
+                                <div class=" d-flex justify-content-center">
+                                    <div>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    </div>
+                                    <p class="text-muted">(99)</p>
+                                </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</section>
+
+
+  
+
+ <!-- section pagination -->
+ <section id="pagination">
+    <div class="container pt-5">
+       
+        <nav aria-label="Page navigation example">
+            <ul class="pagination">
+              <li class="page-item"><a class="page-link text-secondary" href="#">Previous</a></li>
+              <li class="page-item"><a class="page-link bg-warning text-light" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item"><a class="page-link" href="#">Next</a></li>
+            </ul>
+          </nav>
+        
+    </div>
+ </section>
+
+
+
+
+
+
+
+
+
+
+
+
+   </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  
+  </body>
+</html>
