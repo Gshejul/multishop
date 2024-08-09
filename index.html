@@ -1,0 +1,1333 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- style css -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+
+    <!-- owl cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+    <!-- boot icon cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+
+    <title>Multi Shop</title>
+
+
+
+  </head>
+  <body>
+    
+
+    <section id="main">
+
+        <button onclick="topFunction()" id="myBtn" class="bounce" title="Go to top"><i class="bi bi-chevron-double-up"></i></button>
+
+        <!-- top section / my account -->
+        <section id="my-ac">
+            <div class="container-fluid my-ac-bg pt-2">
+            <div class="container pt-2">
+                <div class="d-flex justify-content-lg-between justify-content-around">
+                <div class="first-sec">
+                    <a href="#" class="text-secondary mx-2">About</a>
+                    <a href="#" class="text-secondary mx-2">Contact</a>
+                    <a href="#" class="text-secondary mx-2">Help</a>
+                    <a href="#" class="text-secondary mx-2">FAQs</a>
+                </div>
+                <div class="d-flex">
+                    <div class="dropdown">
+                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                          My Account
+                        </a>
+                      
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                          <li><a class="dropdown-item" href="#">Sign In</a></li>
+                          <li><a class="dropdown-item" href="#">Sign Up</a></li>
+                         
+                        </ul>
+                      </div>
+                      <div class="dropdown">
+                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                          USD
+                        </a>
+                      
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                          <li><a class="dropdown-item" href="#">EUR</a></li>
+                          <li><a class="dropdown-item" href="#"> GBP</a></li>
+                          <li><a class="dropdown-item" href="#">CAD</a></li>
+                        </ul>
+                      </div>
+                      <div class="dropdown">
+                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                          EN
+                        </a>
+                      
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                          <li><a class="dropdown-item" href="#">FR</a></li>
+                          <li><a class="dropdown-item" href="#">AR</a></li>
+                          <li><a class="dropdown-item" href="#">RU </a></li>
+                        </ul>
+                      </div>
+                      <div class="d-lg-none my-ac-icon pb-lg-0 p-1"> 
+                        <i class="fa-sharp fa-solid fa-heart text-dark"></i>
+                        <i class="bi bi-0-circle text-dark"></i>
+                    </div> 
+                    <div class="d-lg-none my-ac-icon pb-lg-0 p-1">
+                        <i class="fa-sharp fa-solid fa-cart-shopping text-dark"></i>
+                        <i class="bi bi-0-circle text-dark"></i>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- multi shop section -->
+
+    <section id="multi-shop">
+        <div class="container pt-4">
+            <div class="d-flex justify-content-between">
+            <div class="logo">
+                <h4> <span class="mul p-1">  MULTI</span> <span class="shop p-1">SHOP</span></h4>
+            </div>
+            <div class="search-bar">
+                <div class="search-box">
+                    <input type="text" class="search-input" placeholder="Search..">
+              
+                    <button class="search-button">
+                      <i class="fas fa-search text-warning"></i>
+                    </button>
+                 </div>
+            </div>
+            <div class="contact">
+                <p class="text-secondary con-text m-0">Coustomer Service</p>
+                <h5>+012 345 6789</h5>
+            </div>
+            
+        </div>
+        </div>
+    </section>
+
+
+
+        <!-- navbar section -->
+
+ <section id="category">
+     <div class="container-fluid bg-dark">
+        <div class=" bg-dark">
+            <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+                    <div class=" container my-lg-0 my-3 d-flex pt-lg-0 pt-2">
+                        <div class="logo1 d-lg-none">
+                            <h4> <span class="mul ">  MULTI</span> <span class="shop ">SHOP</span></h4>
+                        </div>
+                        <div class="dropdown catdrop">
+                            <button class="btn btn-secondary dropdown-toggle p-3" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-sharp fa-solid fa-bars"></i>  <span class="mx-1"> Categories</span>
+                            </button>
+                            <ul class="dropdown-menu cat-menu" aria-labelledby="dropdownMenuButton1">
+                                <div class="btn-group dropend">
+                                    <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                      Dresses
+                                    </button>
+                                    <ul class="dropdown-menu bg-dark">
+                                        <li><a class="dropdown-item" href="#">Men's Dresses</a></li>
+                                        <li><a class="dropdown-item" href="#">Women's Dresses</a></li>
+                                        <li><a class="dropdown-item" href="#">Baby's Dresses</a></li>
+                                    </ul>
+                                  </div>
+                            <li><a class="dropdown-item" href="#">Shirts</a></li>
+                            <li><a class="dropdown-item" href="#">Jeans</a></li>
+                            <li><a class="dropdown-item" href="#">Swimwear</a></li>
+                            <li><a class="dropdown-item" href="#">Sleepwear</a></li>
+                            <li><a class="dropdown-item" href="#">Sportswear</a></li>
+                            <li><a class="dropdown-item" href="#">Jumpsuit</a></li>
+                            <li><a class="dropdown-item" href="#">Blazers</a></li>
+                            <li><a class="dropdown-item" href="#">Jackets</a></li>
+                            </ul>
+                        </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span><i class="fa-sharp fa-solid fa-bars text-muted p-1"></i></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent ">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active mx-3" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-2" href="./pages/shop.html">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-2" href="./pages/shopdetail.html">Shop Detail</a>
+                        </li>
+                        <li class="nav-item dropdown page-drop">
+                            <a class="nav-link dropdown-toggle mx-2 " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Pages
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Shopping Cart</a></li>
+                            <li><a class="dropdown-item" href="#">Checkout</a></li>
+                            
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-2" href="#">Contact</a>
+                        </li>
+                        </ul>
+
+                        <div> 
+                            <i class="fa-sharp fa-solid fa-heart text-warning"></i>
+                            <i class="bi bi-0-circle text-white"></i>
+                        </div> 
+                        <div class="mx-4">
+                            <i class="fa-sharp fa-solid fa-cart-shopping text-warning"></i>
+                            <i class="bi bi-0-circle text-white"></i>
+                        </div>
+
+                    </div>
+                    </div>
+
+                    <!-- second -->
+
+                    <nav class="navbar navbar-expand-lg navbar-light bg-dark d-lg-none">
+                        <div class="container-fluid">
+                          <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+                          <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span> -->
+                          </button>
+                          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                              <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Shop </a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Shop Detail</a>
+                              </li>
+                              <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Pages
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                  <li><a class="dropdown-item" href="#">Action</a></li>
+                                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                                  <li><hr class="dropdown-divider"></li>
+                                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                              </li>
+                            </ul>
+                            <!-- <form class="d-flex">
+                              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                              <button class="btn btn-outline-success" type="submit">Search</button>
+                            </form> -->
+                          </div>
+                        </div>
+                      </nav>
+                        
+                
+                </nav>
+            </div>
+        </div> 
+</section>
+
+
+
+
+
+        <!-- carousel section -->
+
+        <section id="kids">
+            <div class="container pt-4">
+                <div class="row">
+                    <div class="col-lg-8 col-12">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active car-bg1">
+                                <div class="overlay1"></div>
+                                    <div class="text-center car-item " >
+                                            <p class="text-white car-sub-text ">Kids Fashion</p>
+                                            <p class="text-white car-para px-5 px-lg-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus debitis, <br> ea praesentium ratione recusandae enim.</p>
+                                            <button type="button" class="btn car-btn px-4 p-2 car-para">Shop Now</button>
+                                    </div>
+                              </div>
+                              <div class="carousel-item car-bg2">
+                                <div class="overlay1"></div>
+                                    <div class="text-center car-item">
+                                            <p class="text-white car-sub-text">Kids Fashion</p>
+                                            <p class="text-white car-para px-5 px-lg-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus debitis, <br> ea praesentium ratione recusandae enim.</p>
+                                            <button type="button" class="btn car-btn px-4 p-2 car-para">Shop Now</button>
+                                    </div>
+                              </div>
+                              <div class="carousel-item car-bg3">
+                                <div class="overlay1"></div>
+                                    <div class="text-center car-item">
+                                            <p class="text-white car-sub-text">Kids Fashion</p>
+                                            <p class="text-white car-para px-5 px-lg-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus debitis, <br> ea praesentium ratione recusandae enim.</p>
+                                            <button type="button" class="btn car-btn px-4 p-2 car-para">Shop Now</button>
+                                    </div>
+                              </div>
+                            </div>
+                            <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button> -->
+                          </div>
+                    </div>
+                    <div class="col-lg-4 col-12 car-side-sec">
+                        <div class="wrapper row">
+                            <div class="zoom-effect-container col-lg-6 col-12">
+                                    <div class="image-card">
+                                        <img src="/assets/img/offer-1-overlay.jpg" width="100%"  height="210px"/>
+                                    </div>
+                                    <div class="text-img">
+                                        <h6 class="text-center off-sub">SAVE 20%</h6>
+                                        <h5 class="text-center off-sub2">Special Offer</h5>
+                                        <button type="button" class="btn offer-btn">Shop Now</button>
+                                    </div>
+                            </div>
+                            <div class="zoom-effect-container col-lg-6 col-12">
+                                    <div class="image-card">
+                                        <img src="/assets/img/offer-2-overlay.jpg"  width="100%" height="210px"/>
+                                    </div>
+                                    <div class="text-img">
+                                        <h6 class="text-center off-sub">SAVE 20%</h6>
+                                        <h5 class="text-center off-sub2">Special Offer</h5>
+                                        <button type="button" class="btn offer-btn">Shop Now</button>
+                                    </div>
+                            </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- quality section -->
+
+        <section id="quality">
+            <div class="container pt-5">
+                <div class="row">
+                    <div class="col-lg-3 bg-qua col-12 d-flex my-lg-0 my-3">
+                        <div class=" d-block p-4">
+                            <i class="fa-sharp fa-solid fa-check text-warning quality-icon"></i>
+                            <b class="mx-1">Quality Product</b>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 bg-qua col-12 d-flex my-lg-0 my-3">
+                        <div class=" d-block p-4">
+                            <i class="fa-sharp fa-solid fa-truck-fast text-warning quality-icon"></i>
+                            <b class="mx-1">Free Shipping</b>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 bg-qua col-12 d-flex my-lg-0 my-3">
+                        <div class=" d-block p-4">
+                            <i class="fa-sharp fa-solid fa-right-left text-warning quality-icon"></i>
+                            <b class="mx-1">14-Day Return</b>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 bg-qua col-12 d-flex my-lg-0 my-3">
+                        <div class=" d-block p-4">
+                            <i class="fa-sharp fa-solid fa-phone-volume text-warning quality-icon"></i>
+                            <b class="mx-1">24 / 7 Support</b>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- categories section -->
+        <section id="categories">
+            <div class="container pt-5">
+                <div class="d-flex">
+                   <p class="cat-head text-uppercase">categories</p>
+                    <div class="mx-3 dashed"></div>
+                </div>
+                <div class="row pt-3">
+                    <div class="col-lg-3 col-12 content pb-lg-0 pb-3">
+                       <div class="d-flex cate-bg">
+                        <div class="content">
+                            <img src="/assets/img/cat-1.jpg" alt="" srcset="" width="100px">
+                        </div>
+                        <div class=" cate-text p-3 ">
+                            <h6>Category Name</h6>
+                            <p class="text-secondary">100 products</p>
+                        </div>
+                       </div>
+                    </div>
+                    <div class="col-lg-3 col-12 content pb-lg-0 pb-3">
+                        <div class="d-flex cate-bg">
+                            <div class="content">
+                                <img src="/assets/img/cat-2.jpg" alt="" srcset="" width="100px">
+                            </div>
+                            <div class=" cate-text p-3 ">
+                                <h6>Category Name</h6>
+                                <p class="text-secondary">100 products</p>
+                            </div>
+                           </div>
+                    </div>
+                    <div class="col-lg-3 col-12 content pb-lg-0 pb-3">
+                        <div class="d-flex cate-bg">
+                            <div class="content">
+                                <img src="/assets/img/cat-3.jpg" alt="" srcset="" width="100px">
+                            </div>
+                            <div class=" cate-text p-3 ">
+                                <h6>Category Name</h6>
+                                <p class="text-secondary">100 products</p>
+                            </div>
+                           </div>
+                    </div>
+                    <div class="col-lg-3 col-12 content pb-lg-0 pb-3">
+                        <div class="d-flex cate-bg">
+                            <div class="content">
+                                <img src="/assets/img/cat-4.jpg" alt="" srcset="" width="100px">
+                            </div>
+                            <div class=" cate-text p-3 ">
+                                <h6>Category Name</h6>
+                                <p class="text-secondary">100 products</p>
+                            </div>
+                           </div>
+                    </div>
+<!-- col-2 -->
+<div class="row pt-4">
+                    <div class="col-lg-3 col-12 content pb-lg-0 pb-3">
+                        <div class="d-flex cate-bg">
+                            <div class="content">
+                                <img src="/assets/img/cat-1.jpg" alt="" srcset="" width="100px">
+                            </div>
+                            <div class=" cate-text p-3 ">
+                                <h6>Category Name</h6>
+                                <p class="text-secondary">100 products</p>
+                            </div>
+                           </div>
+                    </div>
+                    <div class="col-lg-3 col-12 content pb-lg-0 pb-3">
+                       <div class="d-flex cate-bg">
+                        <div class="content">
+                            <img src="/assets/img/cat-2.jpg" alt="" srcset="" width="100px">
+                        </div>
+                        <div class=" cate-text p-3 ">
+                            <h6>Category Name</h6>
+                            <p class="text-secondary">100 products</p>
+                        </div>
+                       </div>
+                    </div>
+                    <div class="col-lg-3 col-12 content pb-lg-0 pb-3">
+                        <div class="d-flex cate-bg">
+                            <div class="content">
+                                <img src="/assets/img/cat-3.jpg" alt="" srcset="" width="100px">
+                            </div>
+                            <div class=" cate-text p-3 ">
+                                <h6>Category Name</h6>
+                                <p class="text-secondary">100 products</p>
+                            </div>
+                           </div>
+                    </div>
+                    <div class="col-lg-3 col-12 content pb-lg-0 pb-3">
+                        <div class="d-flex cate-bg">
+                            <div class="content">
+                                <img src="/assets/img/cat-4.jpg" alt="" srcset="" width="100px">
+                            </div>
+                            <div class=" cate-text p-3 ">
+                                <h6>Category Name</h6>
+                                <p class="text-secondary">100 products</p>
+                            </div>
+                           </div>
+                    </div>
+            </div>
+<!-- col-lg-3 col-12 -->
+<div class="row pt-4">
+                    <div class="col-lg-3 col-12 content pb-lg-0 pb-3">
+                        <div class="d-flex cate-bg">
+                            <div class="content">
+                                <img src="/assets/img/cat-2.jpg" alt="" srcset="" width="100px">
+                            </div>
+                            <div class=" cate-text p-3 ">
+                                <h6>Category Name</h6>
+                                <p class="text-secondary">100 products</p>
+                            </div>
+                           </div>
+                    </div>
+                    <div class="col-lg-3 col-12 content pb-lg-0 pb-3">
+                        <div class="d-flex cate-bg">
+                            <div class="content">
+                                <img src="/assets/img/cat-1.jpg" alt="" srcset="" width="100px">
+                            </div>
+                            <div class=" cate-text p-3 ">
+                                <h6>Category Name</h6>
+                                <p class="text-secondary">100 products</p>
+                            </div>
+                           </div>
+                    </div>
+                    <div class="col-lg-3 col-12 content pb-lg-0 pb-3">
+                        <div class="d-flex cate-bg">
+                            <div class="content">
+                                <img src="/assets/img/cat-4.jpg" alt="" srcset="" width="100px">
+                            </div>
+                            <div class=" cate-text p-3 ">
+                                <h6>Category Name</h6>
+                                <p class="text-secondary">100 products</p>
+                            </div>
+                           </div>
+                    </div>
+                    <div class="col-lg-3 col-12 content pb-lg-0 pb-3">
+                        <div class="d-flex cate-bg">
+                            <div class="content">
+                                <img src="/assets/img/cat-3.jpg" alt="" srcset="" width="100px">
+                            </div>
+                            <div class=" cate-text p-3 ">
+                                <h6>Category Name</h6>
+                                <p class="text-secondary">100 products</p>
+                            </div>
+                           </div>
+                    </div>
+</div>   
+                </div>
+
+               
+            </div>
+        </section>
+
+
+
+
+
+         <!-- featured products section -->
+         <section id="featured">
+            <div class="container pt-5">
+                <div class="d-flex">
+                    <div>
+                <p class="featured-head">FEATURED PRODUCTS</p></div>
+                <div class="mx-3 dashed"></div>
+            </div>
+                <div class="row">
+                    <div class="col-lg-3 col-12 pb-lg-0 pb-3">
+                        <div class="shadow">
+                        <div class="content1  text-center ">
+                            <img src="/assets/img/product-1.jpg" alt="Avatar" class="image pb-2 inner-img fmo-view"  >
+                            <div class="middle mid">
+                              <div class="text d-flex justify-content-center">
+                                <i class="fa-sharp fa-solid fa-cart-shopping mx-1  p-2  pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-heart mx-1  p-2  pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-recycle mx-1  p-2  pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-magnifying-glass mx-1  p-2  pro-icon"></i>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <h5>Product Names Goes Here</h5>
+                               <h5> $123.00 <del class="text-muted"> $123.00</del> </h5> 
+                                <div class=" d-flex justify-content-center">
+                                    <div>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    </div>
+                                    <p class="text-muted">(99)</p>
+                                </div>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-3 col-12 pb-lg-0 pb-3">
+                        <div class="shadow">
+                        <div class="content1  text-center">
+                            <img src="/assets/img/product-2.jpg" alt="Avatar" class="image pb-2 inner-img fmo-view"  >
+                            <div class="middle">
+                              <div class="text d-flex">
+                                <i class="fa-sharp fa-solid fa-cart-shopping mx-1  p-2 border pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-heart mx-1  p-2 border pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-recycle mx-1  p-2 border pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-magnifying-glass mx-1  p-2 border pro-icon"></i>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <h5>Product Names Goes Here</h5>
+                               <h5> $123.00 <del class="text-muted"> $123.00</del> </h5> 
+                                <div class=" d-flex justify-content-center">
+                                    <div>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    </div>
+                                    <p class="text-muted">(99)</p>
+                                </div>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-3 col-12 pb-lg-0 pb-3">
+                        <div class="shadow">
+                        <div class="content1  text-center">
+                            <img src="/assets/img/product-3.jpg" alt="Avatar" class="image pb-2 inner-img fmo-view"  >
+                            <div class="middle">
+                              <div class="text d-flex">
+                                <i class="fa-sharp fa-solid fa-cart-shopping mx-1  p-2 border pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-heart mx-1  p-2 border pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-recycle mx-1  p-2 border pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-magnifying-glass mx-1  p-2 border pro-icon"></i>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <h5>Product Names Goes Here</h5>
+                               <h5> $123.00 <del class="text-muted"> $123.00</del> </h5> 
+                                <div class=" d-flex justify-content-center">
+                                    <div>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    </div>
+                                    <p class="text-muted">(99)</p>
+                                </div>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-3 col-12 pb-lg-0 pb-3">
+                        <div class="shadow">
+                        <div class="content1  text-center">
+                            <img src="/assets/img/product-4.jpg" alt="Avatar" class="image pb-2 inner-img last-img" height="305px" >
+                            <div class="middle">
+                              <div class="text d-flex">
+                                <i class="fa-sharp fa-solid fa-cart-shopping mx-1  p-2 border pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-heart mx-1  p-2 border pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-recycle mx-1  p-2 border pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-magnifying-glass mx-1  p-2 border pro-icon"></i>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <h5>Product Names Goes Here</h5>
+                               <h5> $123.00 <del class="text-muted"> $123.00</del> </h5> 
+                                <div class=" d-flex justify-content-center">
+                                    <div>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    </div>
+                                    <p class="text-muted">(99)</p>
+                                </div>
+                            </div>
+                          </div>
+                    </div>
+
+
+                    <!-- second part -->
+                    <div class="col-lg-3 col-12 pt-3 pb-lg-0 pb-3">
+                        <div class="shadow">
+                        <div class="content1  text-center ">
+                            <img src="/assets/img/product-5.jpg" alt="Avatar" class="image pb-2 inner-img fmo-view"  >
+                            <div class="middle mid">
+                              <div class="text d-flex justify-content-center">
+                                <i class="fa-sharp fa-solid fa-cart-shopping mx-1  p-2 border pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-heart mx-1  p-2 border pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-recycle mx-1  p-2 border pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-magnifying-glass mx-1  p-2 border pro-icon"></i>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <h5>Product Names Goes Here</h5>
+                               <h5> $123.00 <del class="text-muted"> $123.00</del> </h5> 
+                                <div class=" d-flex justify-content-center">
+                                    <div>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    </div>
+                                    <p class="text-muted">(99)</p>
+                                </div>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-3 col-12 pb-lg-0 pb-3  pt-3">
+                        <div class="shadow">
+                        <div class="content1  text-center">
+                            <img src="/assets/img/product-6.jpg" alt="Avatar" class="image pb-2 inner-img fmo-view"  >
+                            <div class="middle">
+                              <div class="text d-flex">
+                                <i class="fa-sharp fa-solid fa-cart-shopping mx-1  p-2 border pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-heart mx-1  p-2 border pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-recycle mx-1  p-2 border pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-magnifying-glass mx-1  p-2 border pro-icon"></i>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <h5>Product Names Goes Here</h5>
+                               <h5> $123.00 <del class="text-muted"> $123.00</del> </h5> 
+                                <div class=" d-flex justify-content-center">
+                                    <div>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    </div>
+                                    <p class="text-muted">(99)</p>
+                                </div>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-3 col-12 pb-lg-0 pb-3 pt-3">
+                        <div class="shadow">
+                        <div class="content1  text-center">
+                            <img src="/assets/img/product-7.jpg" alt="Avatar" class="image pb-2 inner-img fmo-view"  >
+                            <div class="middle">
+                              <div class="text d-flex">
+                                <i class="fa-sharp fa-solid fa-cart-shopping mx-1  p-2 border pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-heart mx-1  p-2 border pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-recycle mx-1  p-2 border pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-magnifying-glass mx-1  p-2 border pro-icon"></i>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <h5>Product Names Goes Here</h5>
+                               <h5> $123.00 <del class="text-muted"> $123.00</del> </h5> 
+                                <div class=" d-flex justify-content-center">
+                                    <div>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    </div>
+                                    <p class="text-muted">(99)</p>
+                                </div>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-3 col-12 pb-lg-0 pb-3 pt-3">
+                        <div class="shadow">
+                        <div class="content1  text-center">
+                            <img src="/assets/img/product-8.jpg" alt="Avatar" class="image pb-2 inner-img last-img"  height="305px" >
+                            <div class="middle">
+                              <div class="text d-flex">
+                                <i class="fa-sharp fa-solid fa-cart-shopping mx-1  p-2  pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-heart mx-1  p-2  pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-recycle mx-1  p-2  pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-magnifying-glass mx-1  p-2  pro-icon"></i>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <h5>Product Names Goes Here</h5>
+                               <h5> $123.00 <del class="text-muted"> $123.00</del> </h5> 
+                                <div class=" d-flex justify-content-center">
+                                    <div>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    </div>
+                                    <p class="text-muted">(99)</p>
+                                </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- offer image container -->
+        <section id="off-save">
+            <div class="container pt-5">
+
+                <div class="wrapper row">
+                        <div class="zoom-effect-container col-lg-6 col-12">
+                                <div class="image-card">
+                                    <img src="/assets/img/offer-1-overlay.jpg"/>
+                                </div>
+                                <div class="text-img">
+                                    <h6 class="text-center off-sub">SAVE 20%</h6>
+                                    <h5 class="text-center off-sub2 pb-2">Special Offer</h5>
+                                    <button type="button" class="btn offer-btn">Shop Now</button>
+                                </div>
+                        </div>
+                        <div class="zoom-effect-container col-lg-6 col-12">
+                                <div class="image-card">
+                                    <img src="/assets/img/offer-2-overlay.jpg"/>
+                                </div>
+                                <div class="text-img">
+                                    <h6 class="text-center off-sub">SAVE 20%</h6>
+                                    <h5 class="text-center off-sub2 pb-2">Special Offer</h5>
+                                    <button type="button" class="btn offer-btn">Shop Now</button>
+                                </div>
+                        </div>
+                </div>
+            </div>
+     </section>
+
+
+
+
+
+
+
+        <!-- recent products section -->
+        <section id="recent">
+            <div class="container pt-5 pb-5">
+                <div class="d-flex">
+                <p class="recent-head">RECENT PRODUCTS</p>
+                <div class="mx-3 dashed"></div>
+            </div>
+                <div class="row">
+                    <div class="col-lg-3 col-12 pb-lg-0 pb-3">
+                        <div class="shadow">
+                        <div class="content1  text-center ">
+                            <img src="/assets/img/product-1.jpg" alt="Avatar" class="image pb-2 inner-img fmo-view"  >
+                            <div class="middle mid">
+                              <div class="text d-flex justify-content-center">
+                                <i class="fa-sharp fa-solid fa-cart-shopping mx-1  p-2 border pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-heart mx-1  p-2 border pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-recycle mx-1  p-2 border pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-magnifying-glass mx-1  p-2 border pro-icon"></i>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <h5>Product Names Goes Here</h5>
+                               <h5> $123.00 <del class="text-muted"> $123.00</del> </h5> 
+                                <div class=" d-flex justify-content-center">
+                                    <div>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    </div>
+                                    <p class="text-muted">(99)</p>
+                                </div>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-3 col-12 pb-lg-0 pb-3">
+                        <div class="shadow">
+                        <div class="content1 text-center">
+                            <img src="/assets/img/product-2.jpg" alt="Avatar" class="image pb-2 inner-img fmo-view"  >
+                            <div class="middle">
+                              <div class="text d-flex">
+                                <i class="fa-sharp fa-solid fa-cart-shopping mx-1  p-2 border pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-heart mx-1  p-2 border pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-recycle mx-1  p-2 border pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-magnifying-glass mx-1  p-2 border pro-icon"></i>
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <h5>Product Names Goes Here</h5>
+                               <h5> $123.00 <del class="text-muted"> $123.00</del> </h5> 
+                                <div class=" d-flex justify-content-center">
+                                    <div>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    </div>
+                                    <p class="text-muted">(99)</p>
+                                </div>
+                            </div>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-3 col-12 pb-lg-0 pb-3">
+                        <div class="shadow">
+                        <div class="content1 text-center">
+                            <img src="/assets/img/product-3.jpg" alt="Avatar" class="image pb-2 inner-img fmo-view"  >
+                            <div class="middle">
+                              <div class="text d-flex">
+                                <i class="fa-sharp fa-solid fa-cart-shopping mx-1  p-2 border pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-heart mx-1  p-2 border pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-recycle mx-1  p-2 border pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-magnifying-glass mx-1  p-2 border pro-icon"></i>
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <h5>Product Names Goes Here</h5>
+                               <h5> $123.00 <del class="text-muted"> $123.00</del> </h5> 
+                                <div class=" d-flex justify-content-center">
+                                    <div>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    </div>
+                                    <p class="text-muted">(99)</p>
+                                </div>
+                            </div>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-3 col-12 pb-lg-0 pb-3">
+                        <div class="shadow">
+                        <div class="content1 text-center">
+                            <img src="/assets/img/product-4.jpg" alt="Avatar" class="image pb-2 inner-img last-img"  height="305px">
+                            <div class="middle">
+                              <div class="text d-flex">
+                                <i class="fa-sharp fa-solid fa-cart-shopping mx-1  p-2 border pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-heart mx-1  p-2 border pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-recycle mx-1  p-2 border pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-magnifying-glass mx-1  p-2 border pro-icon"></i>
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <h5>Product Names Goes Here</h5>
+                               <h5> $123.00 <del class="text-muted"> $123.00</del> </h5> 
+                                <div class=" d-flex justify-content-center">
+                                    <div>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    </div>
+                                    <p class="text-muted">(99)</p>
+                                </div>
+                            </div>
+                            </div>
+                          </div>
+                    </div>
+
+
+                    <!-- second part -->
+                    <div class="col-lg-3 col-12 pt-3 pb-lg-0 pb-3">
+                        <div class="shadow">
+                        <div class="content1 text-center ">
+                            <img src="/assets/img/product-5.jpg" alt="Avatar" class="image pb-2 inner-img fmo-view"  >
+                            <div class="middle mid">
+                              <div class="text d-flex justify-content-center">
+                                <i class="fa-sharp fa-solid fa-cart-shopping mx-1  p-2 border pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-heart mx-1  p-2 border pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-recycle mx-1  p-2 border pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-magnifying-glass mx-1  p-2 border pro-icon"></i>
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <h5>Product Names Goes Here</h5>
+                               <h5> $123.00 <del class="text-muted"> $123.00</del> </h5> 
+                                <div class=" d-flex justify-content-center">
+                                    <div>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    </div>
+                                    <p class="text-muted">(99)</p>
+                                </div>
+                            </div>
+                          </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-3 col-12 pb-lg-0 pb-3 pt-3">
+                        <div class="shadow">
+                        <div class="content1 text-center">
+                            <img src="/assets/img/product-6.jpg" alt="Avatar" class="image pb-2 inner-img fmo-view"  >
+                            <div class="middle">
+                              <div class="text d-flex">
+                                <i class="fa-sharp fa-solid fa-cart-shopping mx-1  p-2 border pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-heart mx-1  p-2 border pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-recycle mx-1  p-2 border pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-magnifying-glass mx-1  p-2 border pro-icon"></i>
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <h5>Product Names Goes Here</h5>
+                               <h5> $123.00 <del class="text-muted"> $123.00</del> </h5> 
+                                <div class=" d-flex justify-content-center">
+                                    <div>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    </div>
+                                    <p class="text-muted">(99)</p>
+                                </div>
+                            </div>
+                          </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-3 col-12 pb-lg-0 pb-3 pt-3">
+                        <div class="shadow">
+                        <div class="content1 text-center">
+                            <img src="/assets/img/product-7.jpg" alt="Avatar" class="image pb-2 inner-img fmo-view"  >
+                            <div class="middle">
+                              <div class="text d-flex">
+                                <i class="fa-sharp fa-solid fa-cart-shopping mx-1  p-2 border pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-heart mx-1  p-2 border pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-recycle mx-1  p-2 border pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-magnifying-glass mx-1  p-2 border pro-icon"></i>
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <h5>Product Names Goes Here</h5>
+                               <h5> $123.00 <del class="text-muted"> $123.00</del> </h5> 
+                                <div class=" d-flex justify-content-center">
+                                    <div>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    </div>
+                                    <p class="text-muted">(99)</p>
+                                </div>
+                            </div>
+                          </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-3 col-12 pb-lg-0 pb-3 pt-3">
+                        <div class="shadow">
+                        <div class="content1 text-center">
+                            <img src="/assets/img/product-8.jpg" alt="Avatar" class="image pb-2 inner-img last-img"  height="305px">
+                            <div class="middle">
+                              <div class="text d-flex">
+                                <i class="fa-sharp fa-solid fa-cart-shopping mx-1  p-2 border pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-heart mx-1  p-2 border pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-recycle mx-1  p-2 border pro-icon"></i>
+                                <i class="fa-sharp fa-solid fa-magnifying-glass mx-1  p-2 border pro-icon"></i>
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <h5>Product Names Goes Here</h5>
+                               <h5> $123.00 <del class="text-muted"> $123.00</del> </h5> 
+                                <div class=" d-flex justify-content-center">
+                                    <div>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    <i class="fa-sharp fa-solid fa-star text-warning "></i>
+                                    </div>
+                                    <p class="text-muted">(99)</p>
+                                </div>
+                            </div>
+                          </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+<!-- owl carousel -->
+        <section id="vendor">
+            <div class="container pt-5 pb-5">
+                <div class="owl-carousel owl-carousel2 owl-theme">
+                    <div class="item ">
+                        <img src="/assets/img/vendor-1.jpg" alt="" srcset="" >
+                    </div>
+                    <div class="item ">
+                        <img src="/assets/img/vendor-2.jpg" alt="" srcset="" >
+                    </div>
+                    <div class="item ">
+                        <img src="/assets/img/vendor-3.jpg" alt="" srcset="">
+                    </div>
+                    <div class="item ">
+                        <img src="/assets/img/vendor-4.jpg" alt="" srcset="">
+                    </div>
+                    <div class="item ">
+                        <img src="/assets/img/vendor-5.jpg" alt="" srcset="">
+                    </div>
+                    <div class="item ">
+                        <img src="/assets/img/vendor-6.jpg" alt="" srcset="">
+                    </div>
+                    <div class="item ">
+                        <img src="/assets/img/vendor-7.jpg" alt="" srcset="">
+                    </div>
+                    <div class="item ">
+                        <img src="/assets/img/vendor-8.jpg" alt="" srcset="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <section id="foot">
+            <footer>
+                <div class="container-fluid bg-foot pt-5">
+                    <div class="container bg-foot pt-5 pb-2">
+                        <div class="row">
+                            <div class="col-lg-3 col-12 pt-3">
+                                <h5 class="text-uppercase text-white pb-3">get in touch</h5>
+                                <div class="text-white">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    
+                                    amet consequatur nemo? Cumque, accusantium.
+                                </div>
+                                <div class="d-flex pt-4">
+                                    <i class="fa-sharp fa-solid fa-location-dot text-warning p-1"></i>  
+                                    <p class="text-white mx-3">123 Street, New York, USA</p>
+                                </div>
+                                <div class="d-flex">
+                                    <i class="fa-sharp fa-solid fa-envelope text-warning p-1"></i>  
+                                    <p class="text-white mx-3">info@example.com</p>
+                                </div>
+                                <div class="d-flex">
+                                    <i class="fa-sharp fa-solid fa-phone text-warning p-1"></i> 
+                                    <p class="text-white mx-3">+012 345 6789</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-12 pt-3">
+                                <h5 class="text-white pb-3">QUICK SHOP</h5>
+
+                                <div class="d-flex">
+                                    <i class="fa-sharp fa-solid fa-chevron-right text-white p-1 m-1"></i>
+                                    <a href="#" class="mx-1">Home</a>
+                                </div>
+                                <div class="d-flex">
+                                    <i class="fa-sharp fa-solid fa-chevron-right text-white p-1 m-1"></i>
+                                    <a href="#" class="mx-1">Our Shop</a>
+                                </div>
+                                <div class="d-flex">
+                                    <i class="fa-sharp fa-solid fa-chevron-right text-white p-1 m-1"></i>
+                                    <a href="#" class="mx-1">Shop Detail</a>
+                                </div>
+                                <div class="d-flex">
+                                    <i class="fa-sharp fa-solid fa-chevron-right text-white p-1 m-1"></i>
+                                    <a href="#" class="mx-1">Shopping Cart</a>
+                                </div>
+                                <div class="d-flex">
+                                    <i class="fa-sharp fa-solid fa-chevron-right text-white p-1 m-1"></i>
+                                    <a href="#" class="mx-1">Checkout</a>
+                                </div>
+                                <div class="d-flex">
+                                    <i class="fa-sharp fa-solid fa-chevron-right text-white p-1 m-1"></i>
+                                    <a href="#" class="mx-1">Contact us</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-12 pt-3">
+                                <h5 class="text-white pb-3">MY ACCOUNT</h5>
+
+                               
+                                <div class="d-flex">
+                                    <i class="fa-sharp fa-solid fa-chevron-right text-white p-1 m-1"></i>
+                                    <a href="#" class="mx-1">Home</a>
+                                </div>
+                                <div class="d-flex">
+                                    <i class="fa-sharp fa-solid fa-chevron-right text-white p-1 m-1"></i>
+                                    <a href="#" class="mx-1">Our Shop</a>
+                                </div>
+                                <div class="d-flex">
+                                    <i class="fa-sharp fa-solid fa-chevron-right text-white p-1 m-1"></i>
+                                    <a href="#" class="mx-1">Shop Detail</a>
+                                </div>
+                                <div class="d-flex">
+                                    <i class="fa-sharp fa-solid fa-chevron-right text-white p-1 m-1"></i>
+                                    <a href="#" class="mx-1">Shopping Cart</a>
+                                </div>
+                                <div class="d-flex">
+                                    <i class="fa-sharp fa-solid fa-chevron-right text-white p-1 m-1"></i>
+                                    <a href="#" class="mx-1">Checkout</a>
+                                </div>
+                                <div class="d-flex">
+                                    <i class="fa-sharp fa-solid fa-chevron-right text-white p-1 m-1"></i>
+                                    <a href="#" class="mx-1">Contact us</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-12 pt-3">
+                                <h5 class="text-white pb-3">NEWSLETTER</h5>
+                                    <p class="text-light">Lorem, ipsum dolor sit amet consectetur adipisicing elit  architecto.</p>
+                                    <div class="input-group mb-3">
+                                        <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                        <button class="input-group-text bg-warning" type="button">Sign Up</button>
+                                      </div>
+                                      <div>
+                                        <h6 class="text-light pb-3 pt-3">FOLLOW US</h6>
+                                        <div>
+                                            <i class="fa-brands fa-twitter bg-warning p-3 mx-1"></i>
+                                            <i class="fa-brands fa-facebook bg-warning p-3 mx-1"></i>
+                                            <i class="fa-brands fa-linkedin bg-warning p-3 mx-1"></i>
+                                            <i class="fa-brands fa-instagram bg-warning p-3 mx-1"></i>
+                                        </div>
+                                      </div>
+                            </div>
+                        </div>
+                        <hr class="hrline">
+
+
+
+                        <div class="row">
+                            <div class="col-lg-6 col-12 bg-foot">
+                                <div class="pt-3">
+                                    <p class="text-light text-lg-start text-center"> <span class="text-warning">Domain.</span>All Rights Reserved
+                                        Designed by HTML Codex <br> Distributed By: <span class="text-warning"> ThemeWagon </span>
+                                    </p>
+                                </div>
+                            </div>
+                                <div class="col-lg-6 col-12 bg-foot text-center text-lg-end">      
+                                        <img src="/assets/img/payments.png" alt="" srcset="">  
+                                </div>
+                        </div>
+                       
+                    </div>
+                </div>
+
+               
+            </footer>
+        </section>
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    
+    <script src="/assets/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+ 
+
+  
+        <script>
+        $('.owl-carousel2').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    autoplay:true,
+    responsive:{
+        0:{
+            items:2
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:6
+        }
+    }
+})
+        </script>
+
+<script>
+    // Get the button
+    let mybutton = document.getElementById("myBtn");
+    
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+   
+   
+  </body>
+</html>
